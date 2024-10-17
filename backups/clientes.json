@@ -2,21 +2,59 @@
   {
     "cliente_id": 1,
     "nombre": "Juan Pérez",
-    "email": "juanperez@example.com",
-    "telefono": "3001234567",
-    "direccion": "Calle 123, Bogotá",
+    "email": "juan.perez@example.com",
+    "telefono": "123456789",
+    "direccion": "Calle Falsa 123, Ciudad",
     "prestamos": [
-      { "prestamo_id": 1, "fecha_prestamo": "2024-10-01", "fecha_devolucion": "2024-10-15", "libros": [{ "libro_id": 1, "titulo": "Cien años de soledad" }] }
+      {
+        "prestamo_id": 1,
+        "fecha_prestamo": "2024-10-01",
+        "fecha_devolucion": "2024-10-15",
+        "libros": [
+          {
+            "libro_id": 1,
+            "titulo": "Cien años de soledad",
+            "cantidad": 1
+          }
+        ],
+        "estado": "devuelto"
+      },
+      {
+        "prestamo_id": 2,
+        "fecha_prestamo": "2024-10-05",
+        "fecha_devolucion": "2024-10-20",
+        "libros": [
+          {
+            "libro_id": 2,
+            "titulo": "El amor en los tiempos del cólera",
+            "cantidad": 1
+          }
+        ],
+        "estado": "pendiente"
+      }
     ]
   },
   {
     "cliente_id": 2,
-    "nombre": "Ana Gómez",
-    "email": "anagomez@example.com",
-    "telefono": "3107654321",
-    "direccion": "Avenida 456, Medellín",
+    "nombre": "María Gómez",
+    "email": "maria.gomez@example.com",
+    "telefono": "987654321",
+    "direccion": "Avenida Siempre Viva 742, Ciudad",
     "prestamos": [
-      { "prestamo_id": 2, "fecha_prestamo": "2024-10-10", "fecha_devolucion": "2024-10-20", "libros": [{ "libro_id": 2, "titulo": "Harry Potter y la piedra filosofal" }] }
+      {
+        "prestamo_id": 3,
+        "fecha_prestamo": "2024-10-10",
+        "fecha_devolucion": "2024-10-25",
+        "libros": [
+          {
+            "libro_id": 3,
+            "titulo": "Harry Potter y la piedra filosofal",
+            "cantidad": 1
+          }
+        ],
+        "estado": "pendiente"
+      }
     ]
   }
 ]
+
