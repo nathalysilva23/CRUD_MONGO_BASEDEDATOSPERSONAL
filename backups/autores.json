@@ -1,0 +1,20 @@
+[
+  {
+    "autor_id": 1,
+    "nombre": "Gabriel García Márquez",
+    "nacionalidad": "Colombiana",
+    "fecha_nacimiento": "1927-03-06",
+    "libros": [
+      { "libro_id": 1, "titulo": "Cien años de soledad", "anio_publicacion": 1967, "genero": "Ficción", "precio": 25.99, "stock": 10 }
+    ]
+  },
+  {
+    "autor_id": 2,
+    "nombre": "J.K. Rowling",
+    "nacionalidad": "Británica",
+    "fecha_nacimiento": "1965-07-31",
+    "libros": [
+      { "libro_id": 2, "titulo": "Harry Potter y la piedra filosofal", "anio_publicacion": 1997, "genero": "Fantasía", "precio": 19.99, "stock": 15 }
+    ]
+  }
+]

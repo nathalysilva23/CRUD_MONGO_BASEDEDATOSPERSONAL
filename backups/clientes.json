@@ -1,0 +1,22 @@
+[
+  {
+    "cliente_id": 1,
+    "nombre": "Juan Pérez",
+    "email": "juanperez@example.com",
+    "telefono": "3001234567",
+    "direccion": "Calle 123, Bogotá",
+    "prestamos": [
+      { "prestamo_id": 1, "fecha_prestamo": "2024-10-01", "fecha_devolucion": "2024-10-15", "libros": [{ "libro_id": 1, "titulo": "Cien años de soledad" }] }
+    ]
+  },
+  {
+    "cliente_id": 2,
+    "nombre": "Ana Gómez",
+    "email": "anagomez@example.com",
+    "telefono": "3107654321",
+    "direccion": "Avenida 456, Medellín",
+    "prestamos": [
+      { "prestamo_id": 2, "fecha_prestamo": "2024-10-10", "fecha_devolucion": "2024-10-20", "libros": [{ "libro_id": 2, "titulo": "Harry Potter y la piedra filosofal" }] }
+    ]
+  }
+]
