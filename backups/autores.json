@@ -1,0 +1,63 @@
+[
+  {
+    "autor_id": 1,
+    "nombre": "Gabriel García Márquez",
+    "nacionalidad": "Colombiano",
+    "fecha_nacimiento": "1927-03-06",
+    "libros": [
+      {
+        "libro_id": 1,
+        "titulo": "Cien años de soledad",
+        "anio_publicacion": 1967,
+        "genero": "Ficción",
+        "precio": 25.99,
+        "stock": 10,
+        "resumen": "Una novela que narra la historia de la familia Buendía.",
+        "isbn": "978-3-16-148410-0",
+        "calificacion": 4.7
+      },
+      {
+        "libro_id": 2,
+        "titulo": "El amor en los tiempos del cólera",
+        "anio_publicacion": 1985,
+        "genero": "Ficción",
+        "precio": 22.50,
+        "stock": 5,
+        "resumen": "Una historia de amor que abarca varias décadas.",
+        "isbn": "978-3-16-148411-7",
+        "calificacion": 4.5
+      }
+    ]
+  },
+  {
+    "autor_id": 2,
+    "nombre": "J.K. Rowling",
+    "nacionalidad": "Británica",
+    "fecha_nacimiento": "1965-07-31",
+    "libros": [
+      {
+        "libro_id": 3,
+        "titulo": "Harry Potter y la piedra filosofal",
+        "anio_publicacion": 1997,
+        "genero": "Fantasía",
+        "precio": 19.99,
+        "stock": 15,
+        "resumen": "La historia de un joven mago y sus aventuras en Hogwarts.",
+        "isbn": "978-0-7475-3274-2",
+        "calificacion": 4.8
+      },
+      {
+        "libro_id": 4,
+        "titulo": "Harry Potter y la cámara secreta",
+        "anio_publicacion": 1998,
+        "genero": "Fantasía",
+        "precio": 20.99,
+        "stock": 10,
+        "resumen": "La segunda parte de la saga de Harry Potter.",
+        "isbn": "978-0-7475-3849-2",
+        "calificacion": 4.7
+      }
+    ]
+  }
+]
+
