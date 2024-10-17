@@ -1,0 +1,13 @@
+db.clientes.updateOne(
+  { "cliente_id": 2 }, // Filtro para buscar al cliente
+  { 
+    $setOnInsert: { // Usar setOnInsert para definir valores al insertar
+      "nombre": "María López",
+      "email": "maria.lopez@example.com",
+      "telefono": "987654321",
+      "direccion": "Calle Vieja 789, Ciudad",
+      "prestamos": []
+    } 
+  },
+  { upsert: true } // Activar upsert
+);

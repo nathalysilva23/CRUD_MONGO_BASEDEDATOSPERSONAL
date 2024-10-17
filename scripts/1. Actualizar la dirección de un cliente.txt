@@ -1,0 +1,6 @@
+db.clientes.updateOne(
+  { "cliente_id": 1 }, // Filtro para encontrar al cliente
+  { 
+    $set: { "direccion": "Calle Nueva 456, Ciudad" } // Actualización
+  }
+);

@@ -1,0 +1,13 @@
+db.autores.updateOne(
+  { "autor_id": 1 }, // Filtro para encontrar el autor
+  { 
+    $addToSet: { 
+      "libros": { 
+        "libro_id": 3,
+        "titulo": "Crónica de una muerte anunciada",
+        "anio_publicacion": 1981,
+        "genero": "Ficción"
+      } 
+    } 
+  }
+);

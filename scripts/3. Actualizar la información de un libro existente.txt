@@ -1,0 +1,6 @@
+db.libros.updateOne(
+  { "libro_id": 1 }, // Filtro para encontrar el libro
+  { 
+    $set: { "precio": 32.99 } // Actualización del precio
+  }
+);

@@ -1,0 +1,20 @@
+db.clientes.updateOne(
+  { "cliente_id": 1 }, // Filtro para encontrar al cliente
+  { 
+    $push: { 
+      "prestamos": { 
+        "prestamo_id": 3,
+        "fecha_prestamo": "2024-10-10",
+        "fecha_devolucion": "2024-10-25",
+        "libros": [
+          {
+            "libro_id": 2,
+            "titulo": "El amor en los tiempos del cólera",
+            "cantidad": 1
+          }
+        ],
+        "estado": "pendiente"
+      } 
+    } 
+  }
+);
